@@ -1,6 +1,8 @@
 // server.js
 // this is a comment to modify the file
     // set up ========================
+    
+    //a comment to edit this file
     var express  = require('express');
     var app      = express();                               // create our app w/ express
     var mongoose = require('mongoose');                     // mongoose for mongodb
