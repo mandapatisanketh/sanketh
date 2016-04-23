@@ -10,7 +10,6 @@
 using namespace std;
 
 #include "quicksort.h"
-
 int main(int argc, char* argv[])
 {
 	std::vector<std::string> v(10);
@@ -28,7 +27,7 @@ int main(int argc, char* argv[])
 	std::cout<<"v before qsort: ";
 	std::for_each(v.begin(), v.end(), print<std::string>);
 	std::cout<<'\n';
-
+        //this is a comment for change
 	quick_sort(v.begin(), v.end());
 
 	std::cout<<"v after qsort: ";
